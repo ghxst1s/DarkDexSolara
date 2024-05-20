@@ -1,0 +1,342 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Panel = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local IY = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Universal = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+local Sep = Instance.new("TextLabel")
+local polakya = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local dimag = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local games = Instance.new("TextLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local cehub = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local tc = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local ShowHide = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.349010259, 0, 0.307692319, 0)
+Frame.Size = UDim2.new(0, 497, 0, 347)
+Frame.Active = true
+Frame.Draggable = true
+
+UICorner.Parent = Frame
+
+Panel.Name = "Panel"
+Panel.Parent = Frame
+Panel.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
+Panel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Panel.BorderSizePixel = 0
+Panel.Size = UDim2.new(0, 496, 0, 16)
+Panel.Font = Enum.Font.Arial
+Panel.Text = " Folimpa X                                           b0.3.4"
+Panel.TextColor3 = Color3.fromRGB(0, 255, 38)
+Panel.TextSize = 14.000
+Panel.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_2.Parent = Panel
+
+IY.Name = "IY"
+IY.Parent = Frame
+IY.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+IY.BorderColor3 = Color3.fromRGB(0, 0, 0)
+IY.BorderSizePixel = 0
+IY.Position = UDim2.new(0.0120724346, 0, 0.161383286, 0)
+IY.Size = UDim2.new(0, 69, 0, 26)
+IY.Font = Enum.Font.SourceSans
+IY.Text = "Infinite Yeild"
+IY.TextColor3 = Color3.fromRGB(255, 255, 0)
+IY.TextSize = 14.000
+IY.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/fuckusfm/infiniteyield-reborn/master/source'))
+
+end)
+
+UICorner_3.Parent = IY
+
+Universal.Name = "Universal"
+Universal.Parent = Frame
+Universal.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
+Universal.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Universal.BorderSizePixel = 0
+Universal.Position = UDim2.new(0.0120724346, 0, 0.0691642687, 0)
+Universal.Size = UDim2.new(0, 223, 0, 16)
+Universal.Font = Enum.Font.Arial
+Universal.Text = "Universal (Full Soon)"
+Universal.TextColor3 = Color3.fromRGB(0, 255, 38)
+Universal.TextSize = 14.000
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(4, 67, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(77, 255, 0))}
+UIGradient.Rotation = 40
+UIGradient.Parent = Universal
+
+Sep.Name = "Sep"
+Sep.Parent = Frame
+Sep.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
+Sep.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Sep.BorderSizePixel = 0
+Sep.Position = UDim2.new(0.490945667, 0, 0.0461095087, 0)
+Sep.Size = UDim2.new(0, 5, 0, 331)
+Sep.Font = Enum.Font.Arial
+Sep.Text = " "
+Sep.TextColor3 = Color3.fromRGB(0, 255, 38)
+Sep.TextSize = 14.000
+
+polakya.Name = "polakya"
+polakya.Parent = Frame
+polakya.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+polakya.BorderColor3 = Color3.fromRGB(0, 0, 0)
+polakya.BorderSizePixel = 0
+polakya.Position = UDim2.new(0.663983881, 0, 0.161383286, 0)
+polakya.Size = UDim2.new(0, 69, 0, 26)
+polakya.Font = Enum.Font.SourceSans
+polakya.Text = "Polakya (DH)"
+polakya.TextColor3 = Color3.fromRGB(255, 255, 0)
+polakya.TextSize = 14.000
+polakya.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/pixelheadx/Polakya/main/Bestscript.md"))();
+end)
+
+UICorner_4.Parent = polakya
+
+dimag.Name = "dimag"
+dimag.Parent = Frame
+dimag.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+dimag.BorderColor3 = Color3.fromRGB(0, 0, 0)
+dimag.BorderSizePixel = 0
+dimag.Position = UDim2.new(0.824949682, 0, 0.161383286, 0)
+dimag.Size = UDim2.new(0, 69, 0, 26)
+dimag.Font = Enum.Font.SourceSans
+dimag.Text = "Dimag x (DH)"
+dimag.TextColor3 = Color3.fromRGB(255, 255, 0)
+dimag.TextSize = 14.000
+dimag.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Dimag16/DimagX_NEW/main/dimagx'))
+end)
+
+UICorner_5.Parent = dimag
+
+games.Name = "games"
+games.Parent = Frame
+games.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
+games.BorderColor3 = Color3.fromRGB(0, 0, 0)
+games.BorderSizePixel = 0
+games.Position = UDim2.new(0.551307857, 0, 0.0691642687, 0)
+games.Size = UDim2.new(0, 205, 0, 16)
+games.Font = Enum.Font.Arial
+games.Text = "Games "
+games.TextColor3 = Color3.fromRGB(0, 255, 38)
+games.TextSize = 14.000
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(4, 67, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(77, 255, 0))}
+UIGradient_2.Rotation = 40
+UIGradient_2.Parent = games
+
+cehub.Name = "cehub"
+cehub.Parent = Frame
+cehub.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+cehub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+cehub.BorderSizePixel = 0
+cehub.Position = UDim2.new(0.187122732, 0, 0.161383286, 0)
+cehub.Size = UDim2.new(0, 69, 0, 26)
+cehub.Font = Enum.Font.SourceSans
+cehub.Text = "CE Hub"
+cehub.TextColor3 = Color3.fromRGB(255, 255, 0)
+cehub.TextSize = 14.000
+cehub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ghxst1s/CEhub/main/ce-hub"))()
+end)
+
+UICorner_6.Parent = cehub
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(4, 67, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(77, 255, 0))}
+UIGradient_3.Rotation = 40
+UIGradient_3.Parent = Frame
+
+tc.Name = "tc"
+tc.Parent = Frame
+tc.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+tc.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tc.BorderSizePixel = 0
+tc.Position = UDim2.new(0.744466782, 0, 0.27377522, 0)
+tc.Size = UDim2.new(0, 109, 0, 26)
+tc.Font = Enum.Font.SourceSans
+tc.Text = "Thunder Client (A)"
+tc.TextColor3 = Color3.fromRGB(255, 255, 0)
+tc.TextSize = 14.000
+tc.MouseButton1Down:connect(function()
+	lrm_load_script("dc0fbd1b55234bbd14c5485d574ee722")
+end)
+
+UICorner_7.Parent = tc
+
+ShowHide.Name = "ShowHide"
+ShowHide.Parent = Frame
+ShowHide.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+ShowHide.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ShowHide.BorderSizePixel = 0
+ShowHide.Position = UDim2.new(0.360938817, 0, -0.0856365487, 0)
+ShowHide.Size = UDim2.new(0, 117, 0, 29)
+ShowHide.Font = Enum.Font.Cartoon
+ShowHide.Text = "VapeV4 Solara"
+ShowHide.TextColor3 = Color3.fromRGB(4, 255, 0)
+ShowHide.TextSize = 17.000
+ShowHide.TextWrapped = true
+ShowHide.MouseButton1Down:connect(function()
+	if getgenv and not getgenv().shared then getgenv().shared = {} end
+local errorPopupShown = false
+local setidentity = syn and syn.set_thread_identity or set_thread_identity or setidentity or setthreadidentity or function() end
+local getidentity = syn and syn.get_thread_identity or get_thread_identity or getidentity or getthreadidentity or function() return 8 end
+local isfile = isfile or function(file)
+	local suc, res = pcall(function() return readfile(file) end)
+	return suc and res ~= nil
+end
+local delfile = delfile or function(file) writefile(file, "") end
+
+local function displayErrorPopup(text, func)
+	local oldidentity = getidentity()
+	setidentity(8)
+	local ErrorPrompt = getrenv().require(game:GetService("CoreGui").RobloxGui.Modules.ErrorPrompt)
+	local prompt = ErrorPrompt.new("Default")
+	prompt._hideErrorCode = true
+	local gui = Instance.new("ScreenGui", game:GetService("CoreGui"))
+	prompt:setErrorTitle("Vape")
+	prompt:updateButtons({{
+		Text = "OK",
+		Callback = function() 
+			prompt:_close() 
+			if func then func() end
+		end,
+		Primary = true
+	}}, 'Default')
+	prompt:setParent(gui)
+	prompt:_open(text)
+	setidentity(oldidentity)
+end
+
+local function vapeGithubRequest(scripturl)
+	if not isfile("vape/"..scripturl) then
+		local suc, res
+		task.delay(15, function()
+			if not res and not errorPopupShown then 
+				errorPopupShown = true
+				displayErrorPopup("The connection to github is taking a while, Please be patient.")
+			end
+		end)
+		suc, res = pcall(function() return game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/"..readfile("vape/commithash.txt").."/"..scripturl, true) end)
+		if not suc or res == "404: Not Found" then
+			if identifyexecutor and ({identifyexecutor()})[1] == 'Wave' then 
+				displayErrorPopup('Stop using detected garbage, Vape will not work on such garabge until they fix BOTH HttpGet & file functions.')
+				error(res)
+			end
+			displayErrorPopup("Failed to connect to github : vape/"..scripturl.." : "..res)
+			error(res)
+		end
+		if scripturl:find(".lua") then res = "--This watermark is used to delete the file if its cached, remove it to make the file persist after commits.\n"..res end
+		writefile("vape/"..scripturl, res)
+	end
+	return readfile("vape/"..scripturl)
+end
+
+if not shared.VapeDeveloper then 
+	local commit = "main"
+	for i,v in pairs(game:HttpGet("https://github.com/7GrandDadPGN/VapeV4ForRoblox"):split("\n")) do 
+		if v:find("commit") and v:find("fragment") then 
+			local str = v:split("/")[5]
+			commit = str:sub(0, str:find('"') - 1)
+			break
+		end
+	end
+	if commit then
+		if isfolder("vape") then 
+			if ((not isfile("vape/commithash.txt")) or (readfile("vape/commithash.txt") ~= commit or commit == "main")) then
+				for i,v in pairs({"vape/Universal.lua", "vape/MainScript.lua", "vape/GuiLibrary.lua"}) do 
+					if isfile(v) and readfile(v):find("--This watermark is used to delete the file if its cached, remove it to make the file persist after commits.") then
+						delfile(v)
+					end 
+				end
+				if isfolder("vape/CustomModules") then 
+					for i,v in pairs(listfiles("vape/CustomModules")) do 
+						if isfile(v) and readfile(v):find("--This watermark is used to delete the file if its cached, remove it to make the file persist after commits.") then
+							delfile(v)
+						end 
+					end
+				end
+				if isfolder("vape/Libraries") then 
+					for i,v in pairs(listfiles("vape/Libraries")) do 
+						if isfile(v) and readfile(v):find("--This watermark is used to delete the file if its cached, remove it to make the file persist after commits.") then
+							delfile(v)
+						end 
+					end
+				end
+				writefile("vape/commithash.txt", commit)
+			end
+		else
+			makefolder("vape")
+			writefile("vape/commithash.txt", commit)
+		end
+	else
+		displayErrorPopup("Failed to connect to github, please try using a VPN.")
+		error("Failed to connect to github, please try using a VPN.")
+	end
+end
+
+return loadstring(vapeGithubRequest("MainScript.lua"))()
+end)
+UICorner_8.Parent = ShowHide
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- GYat??!?!?
+
+
